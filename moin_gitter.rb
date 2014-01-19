@@ -23,8 +23,6 @@ end
 print "using source: \"" + source_dir + "\"\n"
 print "using destination: \"" + target_dir + "\"\n"
 print "using definition file: \"" + files_to_git + "\"\n"
-backup_dir = source_dir +"_"+ Time.now.strftime("%Y-%m-%d-%H%M%S")
-FileUtils.mkdir_p backup_dir
 
 
 unless File.file? files_to_git 
