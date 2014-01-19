@@ -2,6 +2,18 @@
 # moving a selection of pages and plugins, from moinmoin, into a git repo
 # useful when developing moinmoin plugins
 #
+# expecting a listing of the files to be moved, in a file using the following format:
+# pages:
+#   PageName
+#   AnotherPageName
+#
+# plugin:
+#    action/SomeActionPlugin.py
+#    macro/SomeMacroPlugin.py
+#    parser/SomeParserPlugin.py
+#
+
+
 
 require 'fileutils.rb'
 files_to_git = "NOT_SET"
