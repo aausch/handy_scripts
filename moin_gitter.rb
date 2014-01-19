@@ -1,3 +1,8 @@
+#
+# moving a selection of pages and plugins, from moinmoin, into a git repo
+# useful when developing moinmoin plugins
+#
+
 require 'fileutils.rb'
 files_to_git = "NOT_SET"
 source_dir = 'NOT_SET'
